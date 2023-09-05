@@ -42,6 +42,6 @@ services:
     restart: always
     environment:
       - GIN_MODE=release
-      - DB_URL=mongodb://...
+      - DB_URL=mongodb+srv://sofia_rw:NL2yvwEJwrVWxtg1>@facebookads.vboqefj.mongodb.net/      
     ports:
       - 8080:8080
